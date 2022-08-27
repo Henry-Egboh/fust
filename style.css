@@ -276,8 +276,116 @@ h3, h4{
     background-color: #3a4061;
     box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    padding: 20px;
     border-radius: 10px;
     letter-spacing: 1.5px;
-    /* background-color: rgb(248, 223, 189); */
+}
+
+/* first part of the footer content  */
+.footer_main:first-of-type{
+    display: flex;
+    padding: 20px;
+    /* justify-content: center;  */
+    align-items: center;
+}
+
+.footer_main_text{
+    flex: 2;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+}
+
+.footer_text:nth-of-type(2){
+    padding: 30px 0px 10px;
+}
+
+.footer_text h4{
+    color: rgb(248, 223, 189);
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.footer_text p{
+    color: #fcfcfc;
+    font-weight: 500;
+    font-size: 14px;
+    /* opacity: 0.7; */
+}
+
+/* list items  */
+
+.footer_list{
+    flex: 1;
+    text-align: left;
+    padding: 10px;
+    align-self: flex-start;
+}
+
+.footer_list ul{
+    list-style-type: none;
+    font-family: 'Rubik', sans-serif;
+}
+
+.footer_list ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 12px;
+    /* color: #fcfcfc; */
+    color: rgb(165, 248, 243);
+}
+
+.footer_list ul li a:hover{
+    color: #c12;
+    background-color: #a9e8eb;
+    border-bottom: 2px solid #c12;
+}
+
+/* second part of the footer content  */
+.footer_main:last-of-type{
+    background-color: rgb(248, 223, 189);
+    padding: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+
+
+/* column three of second part of the footer content  */
+.micro_content:nth-of-type(1){
+    color: #3a4061;
+}
+
+.micro_content:nth-of-type(3){
+    display: flex;
+    gap: 8px;
+} 
+
+.micro_content:nth-of-type(3) a{
+    text-decoration: none;
+    color: #c12;
+    /* margin: 0px 2px; */
+} 
+
+.micro_content:nth-of-type(2) ul{
+    list-style-type: none;
+}
+
+.micro_content:nth-of-type(2) ul li{
+    display: inline-flex;
+}
+
+.micro_content:nth-of-type(2) ul li a{
+    text-decoration: none;
+    display: block;
+    color: #3a4061;
+    padding: 0px 5px 5px;
+}
+
+.micro_content:nth-of-type(2) ul li a:hover{
+   color: #c12;
+   border-bottom: 1px solid #c12;
+   /* transition: all 0.5s ease-in-out; */
 }
