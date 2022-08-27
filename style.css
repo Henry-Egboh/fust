@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&family=Rubik:wght@400;500;800&display=swap');
+/* general declaration */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    /* font-family: 'Rubik', sans-serif; */
+    font-family: 'Raleway', sans-serif;
+    background-color: #fcfcfc;
+    letter-spacing: 1px;
+    height: 100vh;
+}
+
+/* images and icons */
+.img_logo{
+    width: 50px;
+    height: 50px;
+}
+
+.bookmark{
+    width: 30px;
+    height: 30px;
+}
+
+h3, h4{
+    font-family: 'Rubik', sans-serif; 
+    padding: 10px 0px;
+}
+
+
+/* header section for logo and navbar  */
+.header{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    padding: 10px 0px 10px 40px;
+}
+
+/* navbar section  */
+.navbar{
+    background-color: hsla(143, 86%, 25%, 1);
+    /* padding: 10px; */
+}
+
+.navbar ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.navbar ul li{
+   display: inline-flex;
+}
+
+.navbar ul li a{
+    color: rgb(165, 248, 243);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 20px 24px;
+    display: block;
+}
+
+.navbar ul li a:hover{
+    color: #c12;
+    background-color: #a9e8eb;
+    border-bottom: 2px solid #c12;
+}
+
+/* container for main contents  */
+.container{
+    width: 60%;
+    margin: 0px auto;
+    /* background-color: rgb(213, 213, 213); */
+}
+
+/* main section  */
+.main{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    gap: 10px 20px;
+}
+
+/* row one of main  */
+.content1{
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0px;
+}
+
+/* row one column two of main  */
+.content2{
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    /* align-items: center; */
+}
+
+/* general for all the slabs */
+.content{
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+/* h3 for div content  */
+.content > h3{
+    font-size: 16px;
+    color: rgb(165, 248, 243);
+    font-weight: bold;
+}
+/* h4 for div content  */
+.content > h4{
+    font-size: 16px;
+    color: #c12;
+    font-weight: bold;
+}
+
+/* first column of main  */
+.content:nth-of-type(1){
+    background-color: #3a4061;
+    padding: 40px 20px;
+    border-radius: 20px;
+    border: 2px solid rgb(54, 58, 54);
+}
+
+.content:nth-of-type(3) p{
+    color: hsla(143, 86%, 25%, 1);
+}
+
+.content:nth-of-type(1) p{
+    color: #fcfcfc;
+}
+
+/* header in col 2 row 1 of main  */
+.row12 h3{
+    color: hsla(143, 86%, 25%, 1);
+}
+
+/* fourth column in row one of main  */
+.row14{
+    display: flex;
+    align-items: center;
+    background-color: rgb(248, 223, 189);
+    gap: 0px 30px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #c12;
+}
+
+/* row one column two first slab  */
+.content2 .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* second column in row one column 2 of main  */
+.row22{
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-radius: 10px;
+    color: #c12;
+    text-align: center;
+}
+
+/* hover button in row22 */
+.button{
+    background-color: hsla(143, 86%, 25%, 1);
+    color: #fcfcfc;
+    padding: 10px 20px;
+    border-radius: 6px;
+
+}
+
